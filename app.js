@@ -113,3 +113,5 @@ const analizarResultados = () => {
 evaluarSintomas();
 mostrarResultados();
 analizarResultados();
+
+
