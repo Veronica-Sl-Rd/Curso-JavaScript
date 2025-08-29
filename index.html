@@ -3,9 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mindy</title>
 </head>
 <body>
+
+    <div id="bienvenida" class="seccion visible">
+    <h1>Hola humano, soy <span class="mindy">Mindy</span></h1>
+    <p><em>Veamos qué tan jodido estás</em></p>
+    <input type="text" id="alias" placeholder="Escribe tu alias">
+    <button id="comenzar">Comenzar test</button>
+    <button id="historial">Ver historial</button>
+    </div>
+
+    <div id="formulario" class="seccion">
+    <h2>Evaluá tus síntomas</h2>
+    <p>Asigná un valor del 0 al 10 según cuánto experimentas cada uno de estos síntomas:</p>
+    <form id="test"></form>
+    <button id="evaluar">Ver diagnóstico</button>
+    </div>
+
+    <div id="resultados" class="seccion">
+    <h2>Resultado</h2>
+    <p id="mensaje"></p>
+    <div id="detalles"></div>
+    <button id="volver">Volver al test</button>
+    <button id="salir">Salir</button>
+    </div>
+
     <script src="./app.js"></script>
 </body>
 </html>
